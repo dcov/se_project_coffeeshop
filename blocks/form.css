@@ -7,13 +7,13 @@
   display: flex;
   flex-direction: column;
   border: none;
+  padding: 0;
+  margin: 0;
   width: 100%;
 }
 
 .form__label {
   margin-top: 32px;
-  display: flex;
-  align-items: center;
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
 }
@@ -22,7 +22,12 @@
   margin-top: 0;
 }
 
-.form__terms-label {
+.form__label_type_checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.form__label_center {
   align-self: center;
 }
 
@@ -32,6 +37,7 @@
   max-width: 385px;
   width: 100%;
   height: 60px;
+  border: 1px solid #838383;
   box-sizing: border-box;
 }
 
